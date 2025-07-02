@@ -16,6 +16,7 @@ sudo pacman -S lutris
 yay -S matugen-bin
 yay -S visual-studio-code-bin
 yay -S python-pywal16
+yay -S unimatrix-git
 
 flatpak install com.discordapp.Discord
 flatpak install org.vinegarhq.Sober
