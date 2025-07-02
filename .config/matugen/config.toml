@@ -1,0 +1,21 @@
+[config.wallpaper]
+command = "swww"
+arguments = ["img", "--transition-type", "center", "--transition-step", "15", "--transition-fps", "60"]
+set = true
+
+[templates.hyprland]
+input_path = '/home/cauan/.config/matugen/templates/hyprland-colors.conf'
+output_path = '~/.config/hypr/colors.conf'
+post_hook = 'hyprctl reload'
+
+[templates.hyprland]
+input_path = '/home/cauan/.config/matugen/templates/hyprland-colors.conf'
+output_path = '~/.config/hypr/colors.conf'
+
+[templates.waybar]
+input_path = '/home/cauan/.config/matugen/templates/colors.css'
+output_path = '/home/cauan/.config/waybar/colors.css'
+
+[template.kitty]
+input_path = '/home/cauan/.config/matugen/templates/kitty-colors.conf'
+output_path = '/home/cauan/.config/kitty/colors.conf'

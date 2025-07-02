@@ -1,0 +1,25 @@
+sudo pacman -S swww
+sudo pacman -S rofi
+sudo pacman -S waybar
+sudo pacman -S sddm
+sudo pacman -S hyprlock
+sudo pacman -S hypridle
+sudo pacman -S nautilus
+sudo pacman -S lxappearance
+sudo pacman -S network-manager-applet
+sudo pacman -S swaync
+sudo pacman -S vlc
+sudo pacman -S kdenlive
+sudo pacman -S steam
+sudo pacman -S lutris
+
+yay -S matugen-bin
+yay -S visual-studio-code-bin
+yay -S python-pywal16
+
+flatpak install com.discordapp.Discord
+flatpak install org.vinegarhq.Sober
+flatpak install org.prismlauncher.PrismLauncher
+flatpak install com.microsoft.Edge
+flatpak install org.telegram.desktop
+

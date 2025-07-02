@@ -1,0 +1,18 @@
+configuration {
+    drun-display-format: "{icon} {name}";
+    font: "JetBrains Nerd Font";
+    show-icons: true;
+    icon-theme:"Papirus";
+}
+
+//@theme 'theme.rasi'
+
+//@theme "/usr/share/rofi/themes/material.rasi"
+
+//@theme "/usr/share/rofi/themes/iggy.rasi"
+
+//@theme "/usr/share/rofi/themes/docu.rasi"
+
+//@theme "/home/cauan/.local/share/rofi/themes/launchpad.rasi"
+
+@theme "/home/cauan/.local/share/rofi/themes/material-you/material-you.rasi"
