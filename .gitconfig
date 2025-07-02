@@ -3,3 +3,6 @@
 [user]
    name = Cauan Garcia
    email = 91156885+ogtakizz@users.noreply.github.com
+
+[credential]
+   helper = store
