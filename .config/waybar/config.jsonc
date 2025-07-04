@@ -129,7 +129,7 @@
     "max-length": 50,
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
     "tooltip-format": "Connected to {essid}",
-    "on-click" : "nm-connection-editor"
+    "on-click": "nm-connection-editor"
   },
 
   "bluetooth": {
