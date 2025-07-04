@@ -32,7 +32,8 @@
       "modules": [
         "custom/wifibt",
         "bluetooth",
-        "network"
+        "network",
+        "tray"
       ]
     }, 
 
@@ -179,5 +180,11 @@
     "separate-outputs": true,
     "icon": true,
     "icon-size": 18
+},
+  },
+  "tray": {
+      "icon-size": 18
+      "spacing": 10
+  }
 }
-}
+
