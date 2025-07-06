@@ -4,7 +4,7 @@
   "margin-top": 5,
   "modules-left": ["clock", "hyprland/workspaces"],
   "modules-center": [],
-  "modules-right": ["custom/weather", "group/volight","group/wifibt","custom/notification"],
+  "modules-right": ["custom/weather", "group/volight", "group/wifibt","custom/notification"],
 
   "group/volight":{
       "orientation": "inherit",
