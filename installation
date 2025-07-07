@@ -12,6 +12,8 @@ sudo pacman -S vlc
 sudo pacman -S kdenlive
 sudo pacman -S steam
 sudo pacman -S lutris
+sudo pacman -S brightnessctl
+sudo pacman -S wl-clipboard
 
 yay -S matugen-bin
 yay -S visual-studio-code-bin
