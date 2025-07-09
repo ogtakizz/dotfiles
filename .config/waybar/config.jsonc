@@ -1,10 +1,10 @@
 {
-  "layer": "top",
+  "layer": "bottom",
   "position": "top",
   "margin-top": 5,
-  "modules-left": ["clock", "hyprland/workspaces"],
-  "modules-center": [],
-  "modules-right": ["custom/weather", "group/volight", "group/wifibt","custom/notification"],
+  "modules-left": ["clock", "group/volight"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["custom/weather", "group/wifibt","custom/notification"],
 
   "group/volight":{
       "orientation": "inherit",

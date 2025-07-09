@@ -1,4 +1,4 @@
-@import url("/home/cauan/.cache/wal/colors-waybar.css");
+@import url ("/home/cauan/.cache/wal/colors-waybar.css");
 
 * {
   font-family: "DM Sans", "JetBrainsMono Nerd Font", sans-serif;
@@ -10,21 +10,19 @@
 window#waybar {
   background-color: transparent;
   color: @foreground;
-  border-bottom: 3px solid rgba(100, 100, 100, 0.5);
 }
 
 
 #workspaces {
   background-color: @background;
   padding: 2px 2px 2px 2px;
-  border-radius: 9999px;
+  border-radius: 5px;
 }
 
 #workspaces button.active {
   background-color: @color1;
   color: @foreground;
   padding: 5px 15px;
-  border-radius: 9999px;
 }
 
 #workspaces button.active:hover {
@@ -40,7 +38,6 @@ window#waybar {
   background-color: @background;
   color: @foreground;
   border: none;
-  border-radius: 9999px;
   box-shadow: none;
   text-shadow: none;
   transition: background-color 0.6s ease, color 0.6s ease, padding-left 0.3s ease, padding-right 0.3s ease
@@ -77,7 +74,6 @@ window#waybar {
   background-color: @background;
   padding: 0 15px 0 15px;
   margin: 0 12px;
-  border-radius: 9999px
 }
 
 #custom-volight,
@@ -87,23 +83,20 @@ window#waybar {
   background-color: @background;
   padding: 0;
   margin: 0;
-  border-radius: 9999px
 }
 
 #custom-volight {
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 10px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  border-radius: 9999px
 }
 
 #custom-wifibt {
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 10px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  border-radius: 9999px;
 }
 
 #pulseaudio,
