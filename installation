@@ -4,7 +4,6 @@ sudo pacman -S waybar
 sudo pacman -S sddm
 sudo pacman -S hyprlock
 sudo pacman -S hypridle
-sudo pacman -S nautilus
 sudo pacman -S lxappearance
 sudo pacman -S network-manager-applet
 sudo pacman -S swaync
@@ -14,6 +13,7 @@ sudo pacman -S steam
 sudo pacman -S lutris
 sudo pacman -S brightnessctl
 sudo pacman -S wl-clipboard
+sudo pacman -S exa
 
 yay -S matugen-bin
 yay -S visual-studio-code-bin
