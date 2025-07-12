@@ -2,9 +2,9 @@
   "layer": "bottom",
   "position": "top",
   "margin-top": 5,
-  "modules-left": ["clock", "group/volight"],
+  "modules-left": ["clock","battery", "group/volight"],
   "modules-center": ["hyprland/workspaces"],
-  "modules-right": ["custom/weather", "group/wifibt","custom/notification"],
+  "modules-right": ["group/wifibt","custom/weather", "custom/notification"],
 
   "group/volight":{
       "orientation": "inherit",
@@ -46,6 +46,12 @@
   "custom/volight":{
     "format" : "󰕾 󰃠"
   },
+
+    "battery": {
+        "format": "{icon}  {capacity}%",
+        "format-charging": "󰂄  {capacity}%",
+        "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    },
 
   "custom/notification": {
     "tooltip": false,
