@@ -1,7 +1,7 @@
 {
   "layer": "bottom",
   "position": "top",
-  "margin-top": 5,
+  "margin-top": 3,
   "modules-left": ["clock","battery", "group/volight"],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": ["group/wifibt","custom/weather", "custom/notification"],
@@ -37,7 +37,7 @@
       ]
     }, 
 
-  "height": 20,
+  "height": 15,
 
   "custom/wifibt":{
     "format" : " 󰤨"

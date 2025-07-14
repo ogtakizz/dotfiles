@@ -61,8 +61,22 @@ window#waybar {
 #custom-pacman,
 #network,
 #bluetooth,
-#clock,
-#custom-weather,
+#clock {
+  color: @foreground;
+  background-color: @background;
+  padding: 0 15px 0 15px;
+  margin: 1;
+  border-radius: 9999px;
+}
+
+#custom-weather {
+  color: @foreground;
+  background-color: @background;
+  padding: 0 15px 0 15px; 
+  margin: 1;
+  border-radius: 9999px;
+}
+
 #custom-media,
 #window,
 #cpu,
@@ -70,7 +84,14 @@ window#waybar {
 #disk,
 #tray,
 #custom-launcher,
-#custom-notification,
+#custom-notification {
+  color: @foregound;
+  background-color: @background;
+  padding: 0 15px 0 15px; 
+  margin: 1;
+  border-radius: 9999px;
+}
+
 #power-profiles-daemon {
   color: @foreground;
   background-color: @background;
@@ -102,6 +123,7 @@ window#waybar {
   padding-left: 15px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+  margin: 0; 
   border-radius: 9999px;
 }
 
