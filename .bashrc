@@ -20,13 +20,13 @@ PS1='\W\$ '
 alias ls='exa -l'
 
 # Updates the packages on the system
-alias sybau='sudo pacman -Syu && yay -Syu'
+alias sybau='sudo pacman -Syu --noconfirm  && yay -Syu --noconfirm'
 
 # Just a small shortcut so i don't have to write "sudo pacman" all the time
 alias p='sudo pacman'
 
 # Clean cache and useless things from the pacman and yay installations
-alias cache='sudo pacman -Scc && yay -Scc'
+alias cache='sudo pacman -Scc --noconfirm && yay -Scc --noconfirm'
 
 # Alias for things
 alias i='yay -S'         # Install packages from the AUR         
@@ -60,7 +60,7 @@ alias ktt='nano ~/.config/kitty/kitty.conf'
 #export PATH="$HOME/.local/bin:$PATH"
 
 # Makes neofetch start with the terminal
-neofetch
+#neofetch
 
 # Clear word
 bind '"\C-h": backward-kill-word'

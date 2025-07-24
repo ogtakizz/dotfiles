@@ -87,7 +87,7 @@ window#waybar {
 #custom-notification {
   color: @foregound;
   background-color: @background;
-  padding: 0 15px 0 15px; 
+  padding: 0 16px 0 10px; 
   margin: 1;
   border-radius: 9999px;
 }
@@ -147,3 +147,11 @@ window#waybar.empty #window {
     background-color: transparent;
 }
 
+#custom-power-profile {
+    font-size: 16px;
+    background-color: @background;
+    color: @foreground;
+    padding-right: 8px;
+    padding-left: 15px;
+    border-radius: 9999px;
+}

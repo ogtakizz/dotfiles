@@ -2,9 +2,9 @@
   "layer": "bottom",
   "position": "top",
   "margin-top": 3,
-  "modules-left": ["clock","battery", "group/volight"],
-  "modules-center": ["hyprland/workspaces"],
-  "modules-right": ["group/wifibt","custom/weather", "custom/notification"],
+  "modules-left": ["custom/launcher","clock","bluetooth","tray"],
+  "modules-center": ["custom/notification","hyprland/workspaces","custom/power-profile"],
+  "modules-right": ["network","pulseaudio","custom/weather","battery"],
 
   "group/volight":{
       "orientation": "inherit",
@@ -33,7 +33,6 @@
         "custom/wifibt",
         "bluetooth",
         "network",
-        "tray"
       ]
     }, 
 
@@ -76,7 +75,7 @@
 
   "custom/launcher": {
     "format": "",
-    "on-click": "bash /home/$USER/.config/waybar/scripts/app_launcher.sh",
+    "on-click": "bash ~/.config/waybar/scripts/app_launcher.sh",
     "tooltip-format": "Launch your favorite apps"
   },
 
@@ -173,6 +172,15 @@
     "format": "{icon}   {percent}%",
     "format-icons": ["󰃞", "󰃟", "󰃠"]
   },
+  
+"custom/power-profile": {
+    "format": "{}", // Onde será exibida a saída do script
+    "exec": "~/.config/waybar/scripts/power-profile.sh", // Comando para obter o status (roda a cada 'interval')
+    "on-click": "~/.config/waybar/scripts/power-profile.sh toggle", // Comando para trocar o perfil ao clicar
+    "interval": 5, // Atualiza o módulo a cada 5 segundos
+    "tooltip": true, // Ativa o tooltip
+    "tooltip-format": "{}" // O tooltip será a própria saída do script
+},
 
   "custom/weather": {
     "exec": "${HOME}/.config/waybar/scripts/get_weather.sh Santos",
